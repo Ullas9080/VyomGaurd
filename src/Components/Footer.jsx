@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#111111] text-gray-300 px-6 sm:px-16 py-16">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between gap-12">
-        {/* Branding */}
+     
         <div className="flex flex-col gap-4">
           <h2 className="text-3xl font-extrabold text-white">
             Vyom<span className="text-[#ff7b00]">Garud</span>
@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Quick Links */}
+ 
         <div className="flex flex-col gap-3">
           <h3 className="text-white font-semibold text-lg mb-2">Quick Links</h3>
           <a href="#about" className="hover:text-[#ff7b00] transition">About</a>
@@ -28,7 +28,7 @@ const Footer = () => {
           <a href="#highlights" className="hover:text-[#ff7b00] transition">Highlights</a>
         </div>
 
-        {/* Contact Form */}
+ 
         <div className="flex flex-col gap-4 w-full sm:w-auto">
           <h3 className="text-white font-semibold text-lg mb-2">Contact Us</h3>
           <form className="flex flex-col sm:flex-row gap-3">
